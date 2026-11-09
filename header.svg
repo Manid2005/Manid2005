@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" role="img" aria-label="Manid Aouali — cybersecurity, CTF player, systems and databases">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e17"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flag" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0.10"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#1c2534" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="900" height="280" rx="16"/></clipPath>
+    <clipPath id="type">
+      <rect x="40" y="170" width="0" height="30">
+        <animate attributeName="width" from="0" to="470" begin="1.6s" dur="2.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .raw  { opacity: 0; animation: raw 12s infinite; }
+    .name { animation: name 12s infinite; }
+    .cur  { animation: blink 1s steps(1) infinite; }
+    .scan { animation: scan 6s linear infinite; }
+    .q    { animation: blink 2s steps(1) infinite; }
+    @keyframes raw  { 0%,10% {opacity:1} 11% {opacity:.2} 12% {opacity:1} 13% {opacity:.1} 15%,94% {opacity:0} 96%,100% {opacity:1} }
+    @keyframes name { 0%,10% {opacity:0} 11% {opacity:.8} 12% {opacity:0} 13% {opacity:.9} 15%,94% {opacity:1} 96%,100% {opacity:0} }
+    @keyframes blink { 0%,49% {opacity:1} 50%,100% {opacity:0} }
+    @keyframes scan { from { transform: translateY(-60px) } to { transform: translateY(280px) } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="280" fill="url(#bg)"/>
+    <rect width="900" height="280" fill="url(#grid)"/>
+    <circle cx="760" cy="150" r="190" fill="url(#glow)"/>
+    <rect class="scan" width="900" height="60" fill="url(#scan)"/>
+
+    <!-- window chrome -->
+    <circle cx="28" cy="26" r="6" fill="#ef4444"/>
+    <circle cx="48" cy="26" r="6" fill="#f59e0b"/>
+    <circle cx="68" cy="26" r="6" fill="#22c55e"/>
+    <text x="450" y="30" text-anchor="middle" font-size="12" fill="#6b7280">manid@github: ~</text>
+    <line x1="0" y1="50" x2="900" y2="50" stroke="#1c2534"/>
+
+    <!-- command -->
+    <text x="40" y="92" font-size="15" fill="#6b7280"><tspan fill="#22c55e">$</tspan> ./decode --profile</text>
+
+    <!-- name: scrambled, then decoded -->
+    <text class="raw" x="40" y="150" font-size="46" font-weight="700" fill="#22c55e" textLength="400" lengthAdjust="spacingAndGlyphs">M4N1D_40U4L1</text>
+    <text class="name" x="40" y="150" font-size="46" font-weight="700" fill="#f9fafb" textLength="400" lengthAdjust="spacingAndGlyphs">MANID AOUALI</text>
+
+    <!-- typed subtitle -->
+    <g clip-path="url(#type)">
+      <text x="40" y="190" font-size="16" fill="#9ca3af" textLength="460" lengthAdjust="spacingAndGlyphs">cybersecurity · CTF player · systems &amp; databases</text>
+    </g>
+    <rect class="cur" x="40" y="176" width="9" height="18" fill="#22c55e">
+      <animate attributeName="x" from="40" to="508" begin="1.6s" dur="2.4s" fill="freeze"/>
+    </rect>
+
+    <!-- tags -->
+    <g font-size="11" fill="#9ca3af">
+      <rect x="40" y="224" width="96" height="24" rx="12" fill="none" stroke="#263244"/>
+      <text x="88" y="240" text-anchor="middle">PARIS, FR</text>
+      <rect x="146" y="224" width="250" height="24" rx="12" fill="none" stroke="#263244"/>
+      <text x="271" y="240" text-anchor="middle">L3 CS · UNIVERSITÉ PARIS CITÉ</text>
+      <rect x="406" y="224" width="146" height="24" rx="12" fill="none" stroke="#263244"/>
+      <text x="479" y="240" text-anchor="middle">EX-ESI ALGIERS</text>
+    </g>
+
+    <!-- flag -->
+    <line x1="722" y1="92" x2="722" y2="206" stroke="#e5e7eb" stroke-width="4" stroke-linecap="round"/>
+    <path fill="url(#flag)" d="M724,98 C750,86 772,112 800,100 L800,146 C772,158 750,132 724,144 Z">
+      <animate attributeName="d" dur="3s" repeatCount="indefinite"
+        values="M724,98 C750,86 772,112 800,100 L800,146 C772,158 750,132 724,144 Z;
+                M724,98 C750,110 772,88 800,100 L800,146 C772,134 750,156 724,144 Z;
+                M724,98 C750,86 772,112 800,100 L800,146 C772,158 750,132 724,144 Z"/>
+    </path>
+    <text x="762" y="238" text-anchor="middle" font-size="14" fill="#22c55e">FLAG{ <tspan class="q">?</tspan> }</text>
+  </g>
+</svg>
