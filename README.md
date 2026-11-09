@@ -36,7 +36,7 @@
 ### 🧰 Tech
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,python,js,html,css,mysql,git,github,docker,linux,latex" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=java,python,js,html,css,mysql,git,github,linux,latex" alt="Tech stack" />
 </p>
 
 <!-- Edit the list above: https://skillicons.dev lists every available icon -->
