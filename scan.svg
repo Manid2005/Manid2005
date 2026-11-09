@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 409" width="100%" role="img" aria-label="Service scan of Manid: Linux, web, CTF, MySQL, Java, Python and Git are open; sleep is filtered">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b13"/><stop offset="1" stop-color="#0f1726"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#1b2536" stroke-width="1" opacity=".7"/>
+    </pattern>
+    <clipPath id="card"><rect width="900" height="409" rx="16"/></clipPath>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; font-size: 14px; }
+    .l { animation: in .01s steps(1) backwards; }
+    @keyframes in { from {opacity:0} to {opacity:1} }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0% {opacity:1} 50% {opacity:0} 100% {opacity:0} }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="900" height="409" fill="url(#bg)"/>
+    <rect width="900" height="409" fill="url(#grid)" opacity=".5"/>
+    <circle cx="28" cy="26" r="6" fill="#ef4444"/><circle cx="48" cy="26" r="6" fill="#f59e0b"/><circle cx="68" cy="26" r="6" fill="#22c55e"/>
+    <text x="450.0" y="30" text-anchor="middle" style="font-size:12px" fill="#475569">recon — manid.aouali</text>
+    <line x1="0" y1="50" x2="900" y2="50" stroke="#1b2536"/>
+    <g class="l" style="animation-delay:0.30s"><text x="44" y="86" fill="#f8fafc"><tspan fill="#22c55e">$</tspan> nmap -sV manid.aouali</text></g><g class="l" style="animation-delay:0.62s"><text x="44" y="109" fill="#94a3b8">Host is up (0.0013s latency) — Paris, FR</text></g><g class="l" style="animation-delay:0.94s"><text x="44" y="143" fill="#475569">PORT</text><text x="150" y="143" fill="#475569">STATE</text><text x="246" y="143" fill="#475569">SERVICE</text><text x="350" y="143" fill="#475569">VERSION</text></g><g class="l" style="animation-delay:1.26s"><text x="44" y="166" fill="#94a3b8">22/tcp</text><text x="150" y="166" fill="#22c55e">open</text><text x="246" y="166" fill="#22d3ee">linux</text><text x="350" y="166" fill="#f8fafc">daily driver</text></g><g class="l" style="animation-delay:1.58s"><text x="44" y="189" fill="#94a3b8">80/tcp</text><text x="150" y="189" fill="#22c55e">open</text><text x="246" y="189" fill="#22d3ee">web</text><text x="350" y="189" fill="#f8fafc">HTML · CSS · JavaScript</text></g><g class="l" style="animation-delay:1.90s"><text x="44" y="212" fill="#94a3b8">443/tcp</text><text x="150" y="212" fill="#f59e0b">filtered</text><text x="246" y="212" fill="#22d3ee">sleep</text><text x="350" y="212" fill="#f8fafc">no response</text></g><g class="l" style="animation-delay:2.22s"><text x="44" y="235" fill="#94a3b8">1337/tcp</text><text x="150" y="235" fill="#22c55e">open</text><text x="246" y="235" fill="#22d3ee">ctf</text><text x="350" y="235" fill="#f8fafc">always up for a challenge</text></g><g class="l" style="animation-delay:2.54s"><text x="44" y="258" fill="#94a3b8">3306/tcp</text><text x="150" y="258" fill="#22c55e">open</text><text x="246" y="258" fill="#22d3ee">mysql</text><text x="350" y="258" fill="#f8fafc">ShopDB — 12 tables, recursive structures</text></g><g class="l" style="animation-delay:2.86s"><text x="44" y="281" fill="#94a3b8">8080/tcp</text><text x="150" y="281" fill="#22c55e">open</text><text x="246" y="281" fill="#22d3ee">java</text><text x="350" y="281" fill="#f8fafc">DiskManager — DBMS disk space manager</text></g><g class="l" style="animation-delay:3.18s"><text x="44" y="304" fill="#94a3b8">8888/tcp</text><text x="150" y="304" fill="#22c55e">open</text><text x="246" y="304" fill="#22d3ee">python</text><text x="350" y="304" fill="#f8fafc">scripting &amp; automation</text></g><g class="l" style="animation-delay:3.50s"><text x="44" y="327" fill="#94a3b8">9418/tcp</text><text x="150" y="327" fill="#22c55e">open</text><text x="246" y="327" fill="#22d3ee">git</text><text x="350" y="327" fill="#f8fafc">commit early, commit often</text></g><g class="l" style="animation-delay:3.82s"><text x="44" y="360" fill="#94a3b8">Scan done: 1 host up · 7 services open · <tspan fill="#22c55e">0 excuses</tspan></text></g>
+    <rect class="blink" x="44" y="369" width="9" height="17" fill="#22c55e"/>
+
+    <!-- gauge -->
+    <g class="l" style="animation-delay:1.26s">
+      <circle cx="792" cy="196" r="50" fill="none" stroke="#1b2536" stroke-width="8"/>
+      <circle cx="792" cy="196" r="50" fill="none" stroke="url(#ring)" stroke-width="8" stroke-linecap="round"
+              stroke-dasharray="274.9 314.2" transform="rotate(-90 792 196)">
+        <set attributeName="stroke-dasharray" to="0 314.2" begin="0s" dur="1.6s"/>
+        <animate attributeName="stroke-dasharray" from="0 314.2" to="274.9 314.2" begin="1.6s" dur="2.5s" fill="freeze"/>
+      </circle>
+      <text x="792" y="200" text-anchor="middle" style="font-size:26px;font-weight:700" fill="#f8fafc">7<tspan fill="#475569">/8</tspan></text>
+      <text x="792" y="220" text-anchor="middle" style="font-size:10px" letter-spacing="2" fill="#94a3b8">OPEN</text>
+    </g>
+  </g>
+</svg>

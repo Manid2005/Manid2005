@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" role="img" aria-label="Manid Aouali — cybersecurity, CTF player, systems and databases">
+  <!-- part 3/3 : czB1cmMzfQ== -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b13"/><stop offset="1" stop-color="#0f1726"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#1b2536" stroke-width="1" opacity=".7"/>
+    </pattern>
+    <clipPath id="card"><rect width="900" height="320" rx="16"/></clipPath>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#22c55e" stop-opacity=".22"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="830" y1="158" x2="791.6" y2="79.2">
+      <stop offset="0" stop-color="#22c55e" stop-opacity=".5"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c55e"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff"/>
+      <stop offset=".75" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="rainmask"><rect width="900" height="320" fill="url(#fade)"/></mask>
+    <clipPath id="type"><rect x="44" y="176" width="480" height="28">
+      <set attributeName="width" to="0" begin="0s" dur="1.8s"/>
+      <animate attributeName="width" from="0" to="480" begin="1.8s" dur="2.2s" fill="freeze"/>
+    </rect></clipPath>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; }
+    .rain { animation: rain linear infinite; }
+    @keyframes rain { from { transform: translateY(-240px) } to { transform: translateY(330px) } }
+    .f1 { opacity: 0; animation: f1 10s steps(1) infinite; }
+    .f2 { opacity: 0; animation: f2 10s steps(1) infinite; }
+    .nm { animation: nm 10s steps(1) infinite; }
+    .gc { opacity: 0; animation: gc 10s steps(1) infinite; }
+    .gr { opacity: 0; animation: gr 10s steps(1) infinite; }
+    @keyframes f1 { 0% {opacity:1} 7% {opacity:0} 100% {opacity:0} }
+    @keyframes f2 { 0% {opacity:0} 7% {opacity:1} 13% {opacity:0} 100% {opacity:0} }
+    @keyframes nm { 0% {opacity:0} 13% {opacity:1} 100% {opacity:1} }
+    @keyframes gc { 0% {opacity:0} 13% {opacity:.85; transform:translate(-5px,0)} 14.5% {opacity:.85; transform:translate(4px,-1px)} 16% {opacity:0}
+                    62% {opacity:.8; transform:translate(-3px,1px)} 63.2% {opacity:0} 100% {opacity:0} }
+    @keyframes gr { 0% {opacity:0} 13% {opacity:.85; transform:translate(5px,1px)} 14.5% {opacity:.85; transform:translate(-4px,0)} 16% {opacity:0}
+                    62% {opacity:.8; transform:translate(3px,-1px)} 63.2% {opacity:0} 100% {opacity:0} }
+    .blink { animation: blink 1s steps(1) infinite; }
+    .slow  { animation: blink 2s steps(1) infinite; }
+    @keyframes blink { 0% {opacity:1} 50% {opacity:0} 100% {opacity:0} }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% {opacity:1} 50% {opacity:.3} }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="320" fill="url(#bg)"/>
+    <rect width="900" height="320" fill="url(#grid)"/>
+    <g mask="url(#rainmask)"><text class="rain" font-size="11" fill="#22c55e" opacity="0.23" style="animation-duration:10.9s;animation-delay:-0.6s"><tspan x="22" dy="15">A</tspan><tspan x="22" dy="15">4</tspan><tspan x="22" dy="15">C</tspan><tspan x="22" dy="15">1</tspan><tspan x="22" dy="15">2</tspan><tspan x="22" dy="15">3</tspan><tspan x="22" dy="15">B</tspan><tspan x="22" dy="15">1</tspan><tspan x="22" dy="15">6</tspan><tspan x="22" dy="15">1</tspan><tspan x="22" dy="15">2</tspan><tspan x="22" dy="15">D</tspan><tspan x="22" dy="15">D</tspan><tspan x="22" dy="15">2</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.23" style="animation-duration:9.8s;animation-delay:-1.8s"><tspan x="68" dy="15">3</tspan><tspan x="68" dy="15">7</tspan><tspan x="68" dy="15">1</tspan><tspan x="68" dy="15">C</tspan><tspan x="68" dy="15">1</tspan><tspan x="68" dy="15">7</tspan><tspan x="68" dy="15">1</tspan><tspan x="68" dy="15">4</tspan><tspan x="68" dy="15">9</tspan><tspan x="68" dy="15">D</tspan><tspan x="68" dy="15">4</tspan><tspan x="68" dy="15">3</tspan><tspan x="68" dy="15">9</tspan><tspan x="68" dy="15">5</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.19" style="animation-duration:9.7s;animation-delay:-4.8s"><tspan x="114" dy="15">3</tspan><tspan x="114" dy="15">2</tspan><tspan x="114" dy="15">1</tspan><tspan x="114" dy="15">6</tspan><tspan x="114" dy="15">F</tspan><tspan x="114" dy="15">D</tspan><tspan x="114" dy="15">A</tspan><tspan x="114" dy="15">E</tspan><tspan x="114" dy="15">E</tspan><tspan x="114" dy="15">B</tspan><tspan x="114" dy="15">9</tspan><tspan x="114" dy="15">7</tspan><tspan x="114" dy="15">5</tspan><tspan x="114" dy="15">7</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.20" style="animation-duration:11.7s;animation-delay:-5.8s"><tspan x="160" dy="15">A</tspan><tspan x="160" dy="15">E</tspan><tspan x="160" dy="15">9</tspan><tspan x="160" dy="15">2</tspan><tspan x="160" dy="15">3</tspan><tspan x="160" dy="15">D</tspan><tspan x="160" dy="15">5</tspan><tspan x="160" dy="15">A</tspan><tspan x="160" dy="15">4</tspan><tspan x="160" dy="15">F</tspan><tspan x="160" dy="15">D</tspan><tspan x="160" dy="15">1</tspan><tspan x="160" dy="15">2</tspan><tspan x="160" dy="15">A</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.24" style="animation-duration:11.8s;animation-delay:-5.8s"><tspan x="206" dy="15">E</tspan><tspan x="206" dy="15">2</tspan><tspan x="206" dy="15">2</tspan><tspan x="206" dy="15">8</tspan><tspan x="206" dy="15">F</tspan><tspan x="206" dy="15">2</tspan><tspan x="206" dy="15">1</tspan><tspan x="206" dy="15">9</tspan><tspan x="206" dy="15">E</tspan><tspan x="206" dy="15">9</tspan><tspan x="206" dy="15">C</tspan><tspan x="206" dy="15">B</tspan><tspan x="206" dy="15">0</tspan><tspan x="206" dy="15">E</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.18" style="animation-duration:15.9s;animation-delay:-6.6s"><tspan x="252" dy="15">6</tspan><tspan x="252" dy="15">9</tspan><tspan x="252" dy="15">4</tspan><tspan x="252" dy="15">7</tspan><tspan x="252" dy="15">C</tspan><tspan x="252" dy="15">C</tspan><tspan x="252" dy="15">F</tspan><tspan x="252" dy="15">2</tspan><tspan x="252" dy="15">5</tspan><tspan x="252" dy="15">E</tspan><tspan x="252" dy="15">C</tspan><tspan x="252" dy="15">8</tspan><tspan x="252" dy="15">4</tspan><tspan x="252" dy="15">D</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.21" style="animation-duration:9.0s;animation-delay:-3.3s"><tspan x="298" dy="15">B</tspan><tspan x="298" dy="15">C</tspan><tspan x="298" dy="15">7</tspan><tspan x="298" dy="15">4</tspan><tspan x="298" dy="15">2</tspan><tspan x="298" dy="15">5</tspan><tspan x="298" dy="15">4</tspan><tspan x="298" dy="15">7</tspan><tspan x="298" dy="15">7</tspan><tspan x="298" dy="15">0</tspan><tspan x="298" dy="15">F</tspan><tspan x="298" dy="15">5</tspan><tspan x="298" dy="15">8</tspan><tspan x="298" dy="15">9</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.21" style="animation-duration:16.9s;animation-delay:-1.9s"><tspan x="344" dy="15">A</tspan><tspan x="344" dy="15">4</tspan><tspan x="344" dy="15">1</tspan><tspan x="344" dy="15">E</tspan><tspan x="344" dy="15">C</tspan><tspan x="344" dy="15">C</tspan><tspan x="344" dy="15">C</tspan><tspan x="344" dy="15">C</tspan><tspan x="344" dy="15">3</tspan><tspan x="344" dy="15">F</tspan><tspan x="344" dy="15">C</tspan><tspan x="344" dy="15">1</tspan><tspan x="344" dy="15">6</tspan><tspan x="344" dy="15">2</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.16" style="animation-duration:12.8s;animation-delay:-6.2s"><tspan x="390" dy="15">1</tspan><tspan x="390" dy="15">3</tspan><tspan x="390" dy="15">0</tspan><tspan x="390" dy="15">4</tspan><tspan x="390" dy="15">3</tspan><tspan x="390" dy="15">B</tspan><tspan x="390" dy="15">0</tspan><tspan x="390" dy="15">2</tspan><tspan x="390" dy="15">6</tspan><tspan x="390" dy="15">C</tspan><tspan x="390" dy="15">4</tspan><tspan x="390" dy="15">8</tspan><tspan x="390" dy="15">B</tspan><tspan x="390" dy="15">B</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.23" style="animation-duration:10.2s;animation-delay:-0.3s"><tspan x="436" dy="15">E</tspan><tspan x="436" dy="15">F</tspan><tspan x="436" dy="15">F</tspan><tspan x="436" dy="15">9</tspan><tspan x="436" dy="15">2</tspan><tspan x="436" dy="15">4</tspan><tspan x="436" dy="15">3</tspan><tspan x="436" dy="15">A</tspan><tspan x="436" dy="15">8</tspan><tspan x="436" dy="15">F</tspan><tspan x="436" dy="15">5</tspan><tspan x="436" dy="15">0</tspan><tspan x="436" dy="15">6</tspan><tspan x="436" dy="15">B</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.20" style="animation-duration:13.1s;animation-delay:-0.4s"><tspan x="482" dy="15">9</tspan><tspan x="482" dy="15">2</tspan><tspan x="482" dy="15">8</tspan><tspan x="482" dy="15">B</tspan><tspan x="482" dy="15">5</tspan><tspan x="482" dy="15">B</tspan><tspan x="482" dy="15">7</tspan><tspan x="482" dy="15">A</tspan><tspan x="482" dy="15">7</tspan><tspan x="482" dy="15">6</tspan><tspan x="482" dy="15">7</tspan><tspan x="482" dy="15">C</tspan><tspan x="482" dy="15">7</tspan><tspan x="482" dy="15">6</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.17" style="animation-duration:10.6s;animation-delay:-6.6s"><tspan x="528" dy="15">0</tspan><tspan x="528" dy="15">8</tspan><tspan x="528" dy="15">F</tspan><tspan x="528" dy="15">8</tspan><tspan x="528" dy="15">6</tspan><tspan x="528" dy="15">B</tspan><tspan x="528" dy="15">E</tspan><tspan x="528" dy="15">B</tspan><tspan x="528" dy="15">B</tspan><tspan x="528" dy="15">2</tspan><tspan x="528" dy="15">7</tspan><tspan x="528" dy="15">3</tspan><tspan x="528" dy="15">7</tspan><tspan x="528" dy="15">F</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.29" style="animation-duration:12.2s;animation-delay:-8.9s"><tspan x="574" dy="15">0</tspan><tspan x="574" dy="15">F</tspan><tspan x="574" dy="15">B</tspan><tspan x="574" dy="15">2</tspan><tspan x="574" dy="15">3</tspan><tspan x="574" dy="15">C</tspan><tspan x="574" dy="15">6</tspan><tspan x="574" dy="15">F</tspan><tspan x="574" dy="15">5</tspan><tspan x="574" dy="15">D</tspan><tspan x="574" dy="15">A</tspan><tspan x="574" dy="15">2</tspan><tspan x="574" dy="15">C</tspan><tspan x="574" dy="15">E</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.28" style="animation-duration:12.5s;animation-delay:-10.3s"><tspan x="620" dy="15">5</tspan><tspan x="620" dy="15">4</tspan><tspan x="620" dy="15">0</tspan><tspan x="620" dy="15">4</tspan><tspan x="620" dy="15">E</tspan><tspan x="620" dy="15">4</tspan><tspan x="620" dy="15">F</tspan><tspan x="620" dy="15">B</tspan><tspan x="620" dy="15">4</tspan><tspan x="620" dy="15">4</tspan><tspan x="620" dy="15">0</tspan><tspan x="620" dy="15">0</tspan><tspan x="620" dy="15">3</tspan><tspan x="620" dy="15">4</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.28" style="animation-duration:15.6s;animation-delay:-2.0s"><tspan x="666" dy="15">6</tspan><tspan x="666" dy="15">0</tspan><tspan x="666" dy="15">8</tspan><tspan x="666" dy="15">6</tspan><tspan x="666" dy="15">9</tspan><tspan x="666" dy="15">7</tspan><tspan x="666" dy="15">A</tspan><tspan x="666" dy="15">8</tspan><tspan x="666" dy="15">D</tspan><tspan x="666" dy="15">4</tspan><tspan x="666" dy="15">1</tspan><tspan x="666" dy="15">B</tspan><tspan x="666" dy="15">E</tspan><tspan x="666" dy="15">D</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.15" style="animation-duration:16.1s;animation-delay:-3.1s"><tspan x="712" dy="15">4</tspan><tspan x="712" dy="15">0</tspan><tspan x="712" dy="15">E</tspan><tspan x="712" dy="15">5</tspan><tspan x="712" dy="15">0</tspan><tspan x="712" dy="15">4</tspan><tspan x="712" dy="15">5</tspan><tspan x="712" dy="15">4</tspan><tspan x="712" dy="15">F</tspan><tspan x="712" dy="15">3</tspan><tspan x="712" dy="15">1</tspan><tspan x="712" dy="15">A</tspan><tspan x="712" dy="15">F</tspan><tspan x="712" dy="15">3</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.16" style="animation-duration:15.7s;animation-delay:-1.9s"><tspan x="758" dy="15">1</tspan><tspan x="758" dy="15">3</tspan><tspan x="758" dy="15">E</tspan><tspan x="758" dy="15">0</tspan><tspan x="758" dy="15">2</tspan><tspan x="758" dy="15">E</tspan><tspan x="758" dy="15">A</tspan><tspan x="758" dy="15">6</tspan><tspan x="758" dy="15">8</tspan><tspan x="758" dy="15">E</tspan><tspan x="758" dy="15">F</tspan><tspan x="758" dy="15">7</tspan><tspan x="758" dy="15">8</tspan><tspan x="758" dy="15">6</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.18" style="animation-duration:16.7s;animation-delay:-15.9s"><tspan x="804" dy="15">E</tspan><tspan x="804" dy="15">A</tspan><tspan x="804" dy="15">2</tspan><tspan x="804" dy="15">7</tspan><tspan x="804" dy="15">D</tspan><tspan x="804" dy="15">2</tspan><tspan x="804" dy="15">6</tspan><tspan x="804" dy="15">9</tspan><tspan x="804" dy="15">3</tspan><tspan x="804" dy="15">4</tspan><tspan x="804" dy="15">B</tspan><tspan x="804" dy="15">4</tspan><tspan x="804" dy="15">8</tspan><tspan x="804" dy="15">4</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.23" style="animation-duration:9.2s;animation-delay:-4.0s"><tspan x="850" dy="15">C</tspan><tspan x="850" dy="15">F</tspan><tspan x="850" dy="15">5</tspan><tspan x="850" dy="15">7</tspan><tspan x="850" dy="15">5</tspan><tspan x="850" dy="15">D</tspan><tspan x="850" dy="15">C</tspan><tspan x="850" dy="15">A</tspan><tspan x="850" dy="15">D</tspan><tspan x="850" dy="15">6</tspan><tspan x="850" dy="15">B</tspan><tspan x="850" dy="15">A</tspan><tspan x="850" dy="15">2</tspan><tspan x="850" dy="15">B</tspan></text><text class="rain" font-size="11" fill="#22c55e" opacity="0.27" style="animation-duration:15.0s;animation-delay:-12.8s"><tspan x="896" dy="15">0</tspan><tspan x="896" dy="15">C</tspan><tspan x="896" dy="15">A</tspan><tspan x="896" dy="15">9</tspan><tspan x="896" dy="15">2</tspan><tspan x="896" dy="15">3</tspan><tspan x="896" dy="15">7</tspan><tspan x="896" dy="15">3</tspan><tspan x="896" dy="15">2</tspan><tspan x="896" dy="15">8</tspan><tspan x="896" dy="15">8</tspan><tspan x="896" dy="15">1</tspan><tspan x="896" dy="15">5</tspan><tspan x="896" dy="15">8</tspan></text></g>
+    <circle cx="730" cy="158" r="200" fill="url(#glow)"/>
+    <g fill="none" stroke="#475569" stroke-width="1.5"><path d="M14,30 V14 H30"/><path d="M870,14 H886 V30"/><path d="M14,290 V306 H30"/><path d="M870,306 H886 V290"/></g>
+
+    <!-- HUD labels -->
+    <circle class="pulse" cx="50" cy="42" r="4" fill="#22c55e"/>
+    <text x="64" y="46" font-size="11" letter-spacing="2.5" fill="#94a3b8">PLAYER PROFILE · ONLINE</text>
+    <text x="856" y="46" font-size="11" letter-spacing="1.5" fill="#475569" text-anchor="end">0x4D 41 4E 49 44</text>
+
+    <text x="44" y="96" font-size="14" fill="#475569"><tspan fill="#22c55e">$</tspan> whoami --decode</text>
+
+    <!-- name: two scrambled frames, then the real one, with an RGB-split glitch -->
+    <g font-size="52" font-weight="700">
+      <text class="f1" x="44" y="152" fill="#22c55e" textLength="430" lengthAdjust="spacingAndGlyphs">M4N1D_40U4L1</text>
+      <text class="f2" x="44" y="152" fill="#22c55e" textLength="430" lengthAdjust="spacingAndGlyphs">MAN1D_A0UAL1</text>
+      <text class="gc" x="44" y="152" fill="#22d3ee" textLength="430" lengthAdjust="spacingAndGlyphs">MANID AOUALI</text>
+      <text class="gr" x="44" y="152" fill="#f43f5e" textLength="430" lengthAdjust="spacingAndGlyphs">MANID AOUALI</text>
+      <text class="nm" x="44" y="152" fill="#f8fafc" textLength="430" lengthAdjust="spacingAndGlyphs">MANID AOUALI</text>
+    </g>
+    <rect x="44" y="166" width="430" height="2" fill="url(#bar)"/>
+
+    <g clip-path="url(#type)">
+      <text x="44" y="196" font-size="15" fill="#94a3b8" textLength="456" lengthAdjust="spacingAndGlyphs">cybersecurity · CTF player · systems &amp; databases</text>
+    </g>
+    <rect class="blink" x="508" y="182" width="9" height="17" fill="#22c55e">
+      <set attributeName="x" to="44" begin="0s" dur="1.8s"/>
+      <animate attributeName="x" from="44" to="508" begin="1.8s" dur="2.2s" fill="freeze"/>
+    </rect>
+
+    <g font-size="11" fill="#94a3b8" letter-spacing=".5">
+      <rect x="44" y="232" width="100" height="26" rx="13" fill="#070b13" fill-opacity=".6" stroke="#263244"/>
+      <text x="94" y="249" text-anchor="middle">PARIS, FR</text>
+      <rect x="154" y="232" width="254" height="26" rx="13" fill="#070b13" fill-opacity=".6" stroke="#263244"/>
+      <text x="281" y="249" text-anchor="middle">L3 CS · UNIVERSITÉ PARIS CITÉ</text>
+      <rect x="418" y="232" width="140" height="26" rx="13" fill="#070b13" fill-opacity=".6" stroke="#263244"/>
+      <text x="488" y="249" text-anchor="middle">EX-ESI ALGIERS</text>
+    </g>
+
+    <!-- radar -->
+    <g fill="none" stroke="#22c55e">
+      <circle cx="730" cy="158" r="108" stroke-opacity=".5" stroke-width="5" stroke-dasharray="1.5 9.8"/>
+      <circle cx="730" cy="158" r="100" stroke-opacity=".55" fill="#070b13" fill-opacity=".55"/>
+      <circle cx="730" cy="158" r="66.7" stroke-opacity=".28"/>
+      <circle cx="730" cy="158" r="33.3" stroke-opacity=".28"/>
+      <path d="M630,158 H830 M730,58 V258" stroke-opacity=".2"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 730 158" to="360 730 158" dur="4s" repeatCount="indefinite"/>
+      <path d="M730,158 L830,158 A100,100 0 0 0 791.6,79.2 Z" fill="url(#sweep)"/>
+      <line x1="730" y1="158" x2="830" y2="158" stroke="#22c55e" stroke-width="1.5"/>
+    </g>
+    <circle cx="780.6" cy="200.4" r="3.2" fill="#22c55e" opacity=".55"><animate attributeName="opacity" values="1;.12" dur="4s" begin="0.44s" repeatCount="indefinite"/></circle><circle cx="688.4" cy="182.0" r="3.2" fill="#22c55e" opacity=".55"><animate attributeName="opacity" values="1;.12" dur="4s" begin="1.67s" repeatCount="indefinite"/></circle><circle cx="702.6" cy="82.8" r="3.2" fill="#22c55e" opacity=".55"><animate attributeName="opacity" values="1;.12" dur="4s" begin="2.78s" repeatCount="indefinite"/></circle>
+    <!-- the flag blip -->
+    <circle cx="771.4" cy="123.3" r="4" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="4;20" dur="4s" begin="3.56s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".9;0;0" keyTimes="0;.45;1" dur="4s" begin="3.56s" repeatCount="indefinite"/>
+    </circle>
+    <g transform="translate(771.4,123.3)">
+      <line x1="-4" y1="-12" x2="-4" y2="6" stroke="#f8fafc" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M-3,-12 L10,-7.5 L-3,-3 Z" fill="#22d3ee"/>
+    </g>
+    <circle cx="730" cy="158" r="2.5" fill="#22c55e"/>
+    <text x="730" y="298" text-anchor="middle" font-size="13" fill="#22c55e" letter-spacing="1">FLAG{ <tspan class="slow" fill="#22d3ee">?</tspan> }</text>
+  </g>
+</svg>
