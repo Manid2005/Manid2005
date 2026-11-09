@@ -20,7 +20,7 @@ manid@paris:~$ cat languages.txt
 Arabic · Kabyle · French · English
 
 manid@paris:~$ echo $CONTACT
-YOUR_EMAIL · linkedin.com/in/YOUR_LINKEDIN
+manidaouali1@gmail.com · linkedin.com/in/YOUR_LINKEDIN
 ```
 
 ![Java](https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=white)
